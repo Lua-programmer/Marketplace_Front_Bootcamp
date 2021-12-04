@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
+import Teste from './components/teste/Teste'
+
 function App() {
   return (
     <div className="App">
-      <h1>Iniciando os projetos do front</h1>
+      <Navbar/>
+      <Teste/>
     </div>
   );
 }
