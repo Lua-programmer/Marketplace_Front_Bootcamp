@@ -1,0 +1,26 @@
+.navbar-brand{
+    background-color: rgb(10, 11, 23);
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+}
+.menu{
+    text-decoration: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iten-menu{
+    color: rgb(230, 232, 190);
+    text-decoration: none;
+    cursor: pointer;
+}
+.subiten-menu{
+    color: rgb(230, 232, 190);
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav__title{
+    color: rgb(33, 186, 3);
+    text-decoration: none;
+    cursor: pointer;
+}
