@@ -37,5 +37,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lua-programmer/Marketplace_Front_Bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lua-programmer/Marketplace_Front_Bootcamp/issues"
+  },
+  "homepage": "https://github.com/Lua-programmer/Marketplace_Front_Bootcamp#readme",
+  "description": ""
 }
