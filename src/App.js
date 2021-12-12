@@ -1,11 +1,9 @@
 import React, { Fragment , useState , useEffect  } from "react";
-
+import GlobalTheme from "./Style/GlobalStyle"
 import { ThemeProvider } from "styled-components";
-import { lightTheme , darkTheme } from "./theme";
-import GlobalTheme from "./GlobalStyle";
+import { lightTheme , darkTheme } from "./Style/theme";
 import styled from "styled-components";
 import Navbar from "./components/Navbar/Navbar";
-
 
 
 
@@ -37,13 +35,11 @@ function App() {
 
   return (
     
-      <ThemeProvider theme={ theme ==='light' ? lightTheme : darkTheme}>
+      <ThemeProvider theme={ theme ==='dark' ? lightTheme : darkTheme}>
         <Fragment>
           <GlobalTheme>
-            
-              <ButtonChange onClick={toggleTheme} >trocar tema </ButtonChange>
-              
               <Navbar/>
+              <ButtonChange onClick={toggleTheme}>trocar tema </ButtonChange>
             
           </GlobalTheme>
         </Fragment>
