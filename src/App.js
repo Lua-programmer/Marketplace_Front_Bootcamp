@@ -1,52 +1,27 @@
-import React, { Fragment , useState , useEffect  } from "react";
-import GlobalTheme from "./Style/GlobalStyle"
-import { ThemeProvider } from "styled-components";
-import { lightTheme , darkTheme } from "./Style/theme";
-import styled from "styled-components";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-
-
-
-const ButtonChange = styled.button`
-  width: 100px;
-  height: 40px;
-  margin-right: 20px;
-  border-radius: 10px;
-`;
+import Category from "./Pages/Category";
+import Home from "./Pages/Home";
+import Menu from "./Pages/Menu";
+import Product from "./Pages/Product";
+import Register from "./Pages/Register";
+import BottomNav from "./components/BottomNav/BottomNav";
 
 function App() {
-
-  const [theme, setTheme] = useState('dark');
-
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      window.localStorage.setItem('theme', 'dark');
-      setTheme('dark');
-    }else {
-      window.localStorage.setItem('theme', 'light');
-      setTheme('ligth')
-    }
-  };
-  useEffect(() => {
-    const localTheme = window.localStorage.getItem('theme');
-    localTheme && setTheme(localTheme);
-  }, [])
-
-
   return (
-    
-      <ThemeProvider theme={ theme ==='dark' ? lightTheme : darkTheme}>
-        <Fragment>
-          <GlobalTheme>
-              <Navbar/>
-              <ButtonChange onClick={toggleTheme}>trocar tema </ButtonChange>
-            
-          </GlobalTheme>
-        </Fragment>
-      </ThemeProvider>
-    
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="product" element={<Product />} />
+        <Route path="category" element={<Category />} />
+        <Route path="menu" element={<Menu />} />
+        <Route path="register" element={<Register />} />
+      </Routes>
+      <BottomNav />
+    </div>
   );
 }
-
 
 export default App;
