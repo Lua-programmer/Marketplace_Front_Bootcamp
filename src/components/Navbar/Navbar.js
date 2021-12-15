@@ -18,16 +18,16 @@ const LoginNav = styled.a`
 color: rgb(1, 50, 32);
 text-decoration: none;
 font-size 1.5rem;
-`
+`;
 
 const Navbar = () => {
   return (
     <HeaderNav>
       <Search />
       {/* inserir boas vindas quando logado */}
-      <LoginNav href='/'>
-        <IoPerson/>
-    </LoginNav>
+      <LoginNav href="/register">
+        <IoPerson />
+      </LoginNav>
     </HeaderNav>
   );
 };
