@@ -2,6 +2,7 @@
 // import { useState } from "react";
 import React from "react";
 import { Form, Button } from "react-bootstrap";
+import "./Register.css";
 
 const Register = () => {
   // const [name_user, setName] = useState("");
@@ -44,30 +45,6 @@ const Register = () => {
         <Form.Group className="mb-3 w-100" controlId="Name">
           <Form.Label>Nome</Form.Label>
           <Form.Control type="text" placeholder="Digite seu nome" />
-        </Form.Group>
-        <Form.Group controlId="formFileSm" className="mb-3">
-          <Form.Label>Selecione a foto</Form.Label>
-          <Form.Control type="file" size="sm" />
-        </Form.Group>
-        <Form.Group className="mb-3 w-100" controlId="address">
-          <Form.Label>Endereço</Form.Label>
-          <Form.Control type="text" placeholder="Digite o endereço" />
-        </Form.Group>
-        <Form.Group className="mb-3 w-100" controlId="city">
-          <Form.Label>Cidade</Form.Label>
-          <Form.Control type="text" placeholder="Digite a cidade" />
-        </Form.Group>
-        <Form.Group className="mb-3 w-100" controlId="uf">
-          <Form.Label>UF</Form.Label>
-          <Form.Control type="text" placeholder="Digite o estado" />
-        </Form.Group>
-        <Form.Group className="mb-3 w-100" controlId="pais">
-          <Form.Label>País</Form.Label>
-          <Form.Control type="text" placeholder="Digite o país" />
-        </Form.Group>
-        <Form.Group className="mb-3 w-100" controlId="tel">
-          <Form.Label>Telefone</Form.Label>
-          <Form.Control type="text" placeholder="(XX) XXXXX-XXXX" />
         </Form.Group>
         <Form.Group className="mb-3 w-100" controlId="Email">
           <Form.Label>E-mail</Form.Label>

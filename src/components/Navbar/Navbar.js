@@ -25,7 +25,7 @@ const Navbar = () => {
     <HeaderNav>
       <Search />
       {/* inserir boas vindas quando logado */}
-      <LoginNav href="/register">
+      <LoginNav href="/login">
         <IoPerson />
       </LoginNav>
     </HeaderNav>

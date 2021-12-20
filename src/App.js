@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Category from "./Pages/Category";
 import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
+import Login from "./Pages/Login";
 import Product from "./Pages/Product";
-import Register from "./Pages/Register";
+import Register from "./Pages/Register/Register";
 import BottomNav from "./components/BottomNav/BottomNav";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="product" element={<Product />} />
         <Route path="category" element={<Category />} />
         <Route path="menu" element={<Menu />} />
+        <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
       </Routes>
       <BottomNav />
