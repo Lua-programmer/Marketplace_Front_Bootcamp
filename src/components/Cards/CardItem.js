@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 
 
-/* Cards Categoria */
+/* Cards Categoria - inserir onclick nos cards */
 
 const StyledCard = styled(Card)`
   width: 6rem;

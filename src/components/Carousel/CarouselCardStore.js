@@ -1,32 +1,37 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CardStore from "../Cards/CardStore";
-import { useState } from "react";
 
-const CarouselCards = () => {
-  const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+const CarouselCardStore = () => {
 
-  /* iniciando o carousel em bootstrap */
+  /* iniciando o carousel em bootstrap -- */
 
   return (
     <div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel>
+        <Carousel.Item interval={5000}>
         <CardStore
           img="https://iguatemi.com.br/galleriashopping/sites/galleriashopping/files/2018-11/Mundo%20Verde.png"
           name="Mundo Verde"
         />
-
+        </Carousel.Item>
+        <Carousel.Item interval={5000}>
         <CardStore
-          img="http://blog.tremeterra.com.br/wp-content/uploads/2019/08/299018-loja-de-produtos-esportivos-4-dicas-para-escolher-a-ideal.jpg"
-          name="Mundo Verde"
+          img="http://observatoriodoesporte.mg.gov.br/wp-content/uploads/2013/05/www.apartmany-sport.cz_1-690x462.jpg"
+          name="Artigos Esportivos"
         />
+        </Carousel.Item>
+        <Carousel.Item interval={5000}>
+        <CardStore
+          img="http://observatoriodoesporte.mg.gov.br/wp-content/uploads/2013/05/Foto-www.footballtradedirectory.jpg"
+          name="Artigos"
+        />
+        </Carousel.Item>
+
       </Carousel>
     </div>
   );
 };
 
-export default CarouselCards;
+export default CarouselCardStore;
