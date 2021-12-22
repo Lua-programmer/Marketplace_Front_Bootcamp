@@ -2,6 +2,11 @@
 // import { useState } from "react";
 import React from "react";
 import { Form, Button } from "react-bootstrap";
+import styled from "styled-components";
+
+const FormRegister = styled.div`
+height: 50%;
+`
 
 const Register = () => {
   // const [name_user, setName] = useState("");
@@ -38,8 +43,10 @@ const Register = () => {
   //   axios.post("user/register", user).then(console.log("Usuario cadastrado"));
   // };
 
+  
+
   return (
-    <div className="container">
+    <FormRegister className="container">
       <Form className="cadastro">
         <Form.Group className="mb-3 w-100" controlId="Name">
           <Form.Label>Nome</Form.Label>
@@ -83,10 +90,11 @@ const Register = () => {
         </Form.Group>
         <Button variant="primary" type="submit">
           Registrar
-        </Button>
+        </Button>        
       </Form>
-    </div>
+      </FormRegister>
+    
   );
-};
+}
 
 export default Register;

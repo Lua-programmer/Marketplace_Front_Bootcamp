@@ -1,7 +1,7 @@
 import React from "react";
-import CardStore from "../components/Cards/CardStore";
 import styled from "styled-components";
 import CarouselCardItem from "../components/Carousel/CarouselCardItem";
+import CarouselCardStore from "../components/Carousel/CarouselCardStore";
 
 
 const HomeDiv = styled.div`
@@ -18,10 +18,7 @@ const Home = () => {
   return (
     <HomeDiv>
       
-      <CardStore
-        img="https://iguatemi.com.br/galleriashopping/sites/galleriashopping/files/2018-11/Mundo%20Verde.png"
-        name="Mundo Verde"
-      />
+      <CarouselCardStore/>
       <CarouselCardItem/>
       
     </HomeDiv>
