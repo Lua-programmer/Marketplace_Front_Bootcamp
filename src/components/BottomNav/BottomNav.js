@@ -16,6 +16,7 @@ const BottomNavigation = styled(Navbar)`
     rgba(174, 246, 199, 0.85) 45%,
     rgba(227, 255, 168, 0.85) 75%
   );
+  position: fixed;
 `;
 const BottomIcon = styled.a`
 color: rgb(1, 50, 32);
@@ -36,7 +37,7 @@ const BottomNav = () => {
       <BottomIcon href="/">
         <HiShoppingCart />
       </BottomIcon>
-      <BottomIcon href="/Product">
+      <BottomIcon href="/menu">
         <HiViewList />
       </BottomIcon>
     </BottomNavigation>

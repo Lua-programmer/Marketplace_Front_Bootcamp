@@ -9,8 +9,13 @@ const StyledCard = styled(Card)`
   width: 6rem;
 `;
 const StyleGroupCard = styled.div`
-  padding: 0.5rem;
+  padding: 0.3rem;
 `;
+const StyledCardTitle = styled(Card.Title)`
+font-size: 1rem;
+text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green;
+color: white;
+`
 
 const CardItem = (props) => {
   return (
@@ -18,7 +23,7 @@ const CardItem = (props) => {
       <StyledCard className="text-dark">
         <Card.Img variant="top" src={props.img} />
         <Card.ImgOverlay>
-          <Card.Title>{props.name}</Card.Title>
+          <StyledCardTitle>{props.name}</StyledCardTitle>
         </Card.ImgOverlay>
       </StyledCard>
     </StyleGroupCard>
