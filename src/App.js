@@ -8,6 +8,7 @@ import Login from "./Pages/Login";
 import Product from "./Pages/Product";
 import Register from "./Pages/Register/Register";
 import BottomNav from "./components/BottomNav/BottomNav";
+import Store from "./Pages/Store";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="menu" element={<Menu />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        <Route path="store" element={<Store />} />
       </Routes>
       <BottomNav />
     </div>

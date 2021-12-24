@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import CarouselCardItem from "../components/Carousel/CarouselCardItem";
+import ScrollHomeSports from "../components/ScrollHome/ScrollHomeSports";
 import CarouselCardStore from "../components/Carousel/CarouselCardStore";
 
 
@@ -19,7 +19,7 @@ const Home = () => {
     <HomeDiv>
       
       <CarouselCardStore/>
-      <CarouselCardItem/>
+      <ScrollHomeSports/>
       
     </HomeDiv>
   );
