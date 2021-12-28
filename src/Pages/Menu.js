@@ -22,7 +22,7 @@ const Menu = () => {
         <CardsMenu href="/category">
           <CardItem
             img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
-            name="Categoria"
+            name="Categorias"
           />
         </CardsMenu>
 

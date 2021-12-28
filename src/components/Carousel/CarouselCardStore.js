@@ -12,20 +12,34 @@ const CarouselCardStore = () => {
       <Carousel>
         <Carousel.Item interval={5000}>
         <CardStore
-          img="https://iguatemi.com.br/galleriashopping/sites/galleriashopping/files/2018-11/Mundo%20Verde.png"
-          name="Mundo Verde"
+          img="https://i.ibb.co/T2wC2yf/Design-sem-nome.png"
+          name="bem estar"
         />
         </Carousel.Item>
         <Carousel.Item interval={5000}>
         <CardStore
-          img="http://observatoriodoesporte.mg.gov.br/wp-content/uploads/2013/05/www.apartmany-sport.cz_1-690x462.jpg"
-          name="Artigos Esportivos"
+          img="https://i.ibb.co/gDYZmm1/Design-sem-nome-2.png"
+          name="Vegan food"
         />
         </Carousel.Item>
         <Carousel.Item interval={5000}>
         <CardStore
-          img="http://observatoriodoesporte.mg.gov.br/wp-content/uploads/2013/05/Foto-www.footballtradedirectory.jpg"
-          name="Artigos"
+          img="https://i.ibb.co/xhXjnMV/Design-sem-nome-4.png"
+          name="surf"
+        />
+        </Carousel.Item>
+
+        <Carousel.Item interval={5000}>
+        <CardStore
+          img="https://i.ibb.co/L5n67zK/Design-sem-nome-5.png"
+          name="surf"
+        />
+        </Carousel.Item>
+
+        <Carousel.Item interval={5000}>
+        <CardStore
+          img="https://i.ibb.co/gt96Xyv/Design-sem-nome-3.png"
+          name="surf"
         />
         </Carousel.Item>
 
