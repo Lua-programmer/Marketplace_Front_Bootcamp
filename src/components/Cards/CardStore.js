@@ -16,7 +16,7 @@ const CardStore = (props) => {
     <CardStoreArea>
       
         <a href="/">
-          <CardStoreImg src={props.img} alt={props.name} />
+          <CardStoreImg width={90}  height={700} src={props.img} alt={props.name} />
         </a>
       
     </CardStoreArea>

@@ -6,7 +6,7 @@ import styled from "styled-components";
 /* Cards Categoria - inserir onclick nos cards */
 
 const StyledCard = styled(Card)`
-  width: 6rem;
+  width: 7rem;
 `;
 const StyleGroupCard = styled.div`
   padding: 0.3rem;
