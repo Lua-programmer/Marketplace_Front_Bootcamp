@@ -22,6 +22,8 @@ font-size 1.5rem;
 
 const Logo = styled.img`
   src: url(${props => props.src});
+  heigth:18%;
+  width:30%
 `
 
 const Navbar = () => {
@@ -32,7 +34,7 @@ const Navbar = () => {
       <LoginNav href="/login">
         <IoPerson />
       </LoginNav>
-      <Logo height={55} src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
+      <Logo src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
     </HeaderNav>
   );
 };
