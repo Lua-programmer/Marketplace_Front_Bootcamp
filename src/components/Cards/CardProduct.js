@@ -20,6 +20,7 @@ const CardProduct = (props) => {
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
+                    {props.price}
                     {props.description}
                 </Card.Text>
 

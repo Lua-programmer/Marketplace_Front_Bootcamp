@@ -1,32 +1,46 @@
 import React from 'react';
-import CardDescription from '../components/Cards/CardDescription';
+import axios from "axios";
+import { useState, useEffect } from 'react';
+
+import CardDescription from '../components/Cards/CardDescriptionStore';
 
 const Store = () => {
+
+    const [storeCard, setStoreCard] = useState([]);
+    const [mounted, setMounted] = useState(false);
+
+    const getData = async () => {
+        await axios.get('/companies/find-all')
+        .then(response => {
+            if(mounted) {
+                setStoreCard(response.data);
+            }
+        });
+    };
+
+    useEffect(() => {
+        setMounted(true);
+        getData();
+        // eslint-disable-next-line
+    },[mounted]);
+
     return (
         <div>
-            <CardDescription
-            image="https://mercadoeconsumo.com.br/wp-content/uploads/2020/04/esporte.jpg"
-            name="Loja vida saudável"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
 
-            <CardDescription
-            image="https://mercadoeconsumo.com.br/wp-content/uploads/2020/04/esporte.jpg"
-            name="Loja vida saudável"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
+            {
+                storeCard.map (companie => (
 
+                
             <CardDescription
-            image="https://mercadoeconsumo.com.br/wp-content/uploads/2020/04/esporte.jpg"
-            name="Loja vida saudável"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            image={companie.image}
+            name={companie.name}
+            description1={companie.address}
+            description2={companie.city}
+            description3={companie.uf}
             />
+            ))
+            }
 
-            <CardDescription
-            image="https://mercadoeconsumo.com.br/wp-content/uploads/2020/04/esporte.jpg"
-            name="Loja vida saudável"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
         </div>
     )
 }
