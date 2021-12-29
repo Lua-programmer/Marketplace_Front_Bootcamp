@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import styled from "styled-components";
+import { useNavigate } from 'react-router-dom';
+
 
 
 /* Cards Categoria - inserir onclick nos cards */
@@ -18,9 +20,17 @@ color: white;
 `
 
 const CardItem = (props) => {
+
+  
+  const navigate = useNavigate();
+  const goToCategory = () => {
+    navigate('/categories/find', {state: props.id});
+  };
+
+
   return (
     <StyleGroupCard>
-      <StyledCard className="text-dark">
+      <StyledCard  onClick={goToCategory}>
         <Card.Img variant="top" src={props.img} />
         <Card.ImgOverlay>
           <StyledCardTitle>{props.name}</StyledCardTitle>

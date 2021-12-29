@@ -5,10 +5,14 @@ import Category from "./Pages/Category";
 import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
 import Login from "./Pages/Login";
-import Product from "./Pages/Product";
+import Product from "./Pages/Products";
 import Register from "./Pages/Register/Register";
 import BottomNav from "./components/BottomNav/BottomNav";
 import Store from "./Pages/Store";
+import axios from "axios";
+
+axios.defaults.baseURL = 'https://marketplace-healthy-life.herokuapp.com/';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 function App() {
   return (
