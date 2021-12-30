@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import Card from 'react-bootstrap/Card';
 import {  HiOutlineHeart } from "react-icons/hi";
 import { BsCartPlus } from "react-icons/bs";
@@ -13,15 +15,29 @@ padding: 0 1rem;
 `;
 
 const CardProduct = (props) => {
+
+    const navigate = useNavigate();
+    const goToProductPage = () => {
+        navigate('/products/find', { state: props.id });
+    }
+
     return (
     
-        <Card>
+        <Card onClick={goToProductPage}>
             <Card.Img variant="top" src={props.image}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
+
                 <Card.Text>
                     {props.price}
-                    {props.description}
+                </Card.Text>
+
+                <Card.Text>
+                {props.description}
+                </Card.Text>
+
+                <Card.Text>
+                {props.category}
                 </Card.Text>
 
                 <CardIcon>

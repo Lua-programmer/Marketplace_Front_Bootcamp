@@ -19,7 +19,8 @@ const Products = () => {
   const [mounted, setMounted] = useState(false);
 
   const getData = async () => {
-    await axios.get("/products/find-all").then((response) => {
+    await axios.get("/products/find-all")
+    .then((response) => {
       if (mounted) {
         setProductCard(response.data);
       }
@@ -36,7 +37,7 @@ const Products = () => {
     <CardsScroll>
       <CardGroup>
         <Row xs={2} md={4}>
-          {productCard.map((product) => (
+          {productCard.map(product => (
             <Col>
               <CardProduct
                 image={product.image}

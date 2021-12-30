@@ -17,7 +17,8 @@ const HeaderNav = styled.nav`
 const LoginNav = styled.a`
 color: rgb(1, 50, 32);
 text-decoration: none;
-font-size 1.5rem;
+font-size 1.2rem;
+padding:0.2rem;
 `;
 
 const Logo = styled.img`
@@ -31,10 +32,12 @@ const Navbar = () => {
     <HeaderNav>
       <Search />
       {/* inserir boas vindas quando logado */}
+      
+      <Logo src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
+    
       <LoginNav href="/login">
         <IoPerson />
       </LoginNav>
-      <Logo src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
     </HeaderNav>
   );
 };
