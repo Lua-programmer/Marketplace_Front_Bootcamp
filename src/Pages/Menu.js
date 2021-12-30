@@ -26,7 +26,7 @@ const Menu = () => {
           />
         </CardsMenu>
 
-        <CardsMenu href="/Product">
+        <CardsMenu href="/products">
           <CardItem
             img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Ofertas"
@@ -40,7 +40,7 @@ const Menu = () => {
           />
         </CardsMenu>
 
-        <CardsMenu href="/product">
+        <CardsMenu href="/products">
           <CardItem
             img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Produtos"

@@ -14,7 +14,7 @@ const StyleGroupCard = styled.div`
   padding: 0.3rem;
 `;
 const StyledCardTitle = styled(Card.Title)`
-font-size: 1rem;
+font-size: 0.8rem;
 text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green;
 color: white;
 `
