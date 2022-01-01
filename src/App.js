@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import axios from "axios";
 
+import GlobalStyle from "./Style/GlobalStyle";
+
 import Navbar from "./components/Navbar/Navbar";
 import Category from "./Pages/Category";
 import Home from "./Pages/Home";
@@ -33,6 +35,7 @@ function App() {
         <Route path="store" element={<Store />} />
       </Routes>
       <BottomNav />
+      <GlobalStyle/>
     </div>
   );
 }

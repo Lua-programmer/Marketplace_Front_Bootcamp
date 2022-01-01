@@ -8,7 +8,8 @@ import { useNavigate } from 'react-router-dom';
 /* Cards Categoria - inserir onclick nos cards */
 
 const StyledCard = styled(Card)`
-  width: 6rem;
+width: 6rem;
+height: 4rem;
 `;
 const StyleGroupCard = styled.div`
   padding: 0.3rem;
