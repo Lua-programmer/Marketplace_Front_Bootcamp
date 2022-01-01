@@ -8,8 +8,11 @@ import { useNavigate } from 'react-router-dom';
 /* Cards Categoria - inserir onclick nos cards */
 
 const StyledCard = styled(Card)`
-width: 6rem;
-height: 4rem;
+
+  width: 10rem;
+  height: 6rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.5rem
 `;
 const StyleGroupCard = styled.div`
   padding: 0.3rem;
@@ -25,14 +28,14 @@ const CardItem = (props) => {
   
   const navigate = useNavigate();
   const goToCategory = () => {
-    navigate('/categories/find', {state: props.id});
+    navigate('/categories/find/', {state: props.id});
   };
 
 
   return (
     <StyleGroupCard>
       <StyledCard  onClick={goToCategory}>
-        <Card.Img variant="top" src={props.img} />
+        <Card.Img variant="top" src={props.image} />
         <Card.ImgOverlay>
           <StyledCardTitle>{props.name}</StyledCardTitle>
         </Card.ImgOverlay>

@@ -18,6 +18,8 @@ const Logo = styled.img`
   src: url(${props => props.src});
   heigth:18%;
   width:30%
+
+  @media
 `
 
 const Navbar = () => {
