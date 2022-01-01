@@ -51,7 +51,7 @@ const ScrollHomeSports = () => {
           {
             categoryCard.map( category => (
           <CardItem
-            img={category.image}
+            image={category.image}
             name={category.name}
           />
           ))

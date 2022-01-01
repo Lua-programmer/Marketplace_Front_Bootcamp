@@ -21,35 +21,35 @@ const Menu = () => {
       <MenuCards>
         <CardsMenu href="/category">
           <CardItem
-            img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Categorias"
           />
         </CardsMenu>
 
         <CardsMenu href="/products">
           <CardItem
-            img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Ofertas"
           />
         </CardsMenu>
 
         <CardsMenu href="/">
           <CardItem
-            img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Minha conta"
           />
         </CardsMenu>
 
         <CardsMenu href="/products">
           <CardItem
-            img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Produtos"
           />
         </CardsMenu>
 
         <CardsMenu href="/Store">
           <CardItem
-            img="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
             name="Lojas"
           />
         </CardsMenu>
