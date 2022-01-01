@@ -5,6 +5,7 @@ import CarouselCardStore from "../components/Carousel/CarouselCardStore";
 
 
 const HomeDiv = styled.div`
+
   // background: linear-gradient(
   //   135deg,
   //   rgba(100, 217, 87, 1) 11%,
