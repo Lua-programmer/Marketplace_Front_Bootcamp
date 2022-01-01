@@ -22,11 +22,23 @@ padding:0.2rem;
 `;
 
 const Logo = styled.img`
-  src: url(${props => props.src});
-  heigth:18%;
-  width:30%
+  @media(max-width: 360px) {
+    src: url(${props => props.src});
+    heigth:18%;
+    width:30%
+  };
 
-  @media
+  @media(max-width: 540px) {
+    src: url(${props => props.src});
+   
+  };
+
+  @media(max-width: 1280px) {
+    src: url(${props => props.src});
+    width: 15%;
+    margin-top: -5px;
+    margin-left: 50%
+  };
 `
 
 const Navbar = () => {

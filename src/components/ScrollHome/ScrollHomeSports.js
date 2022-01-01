@@ -24,8 +24,9 @@ const ScrollHomeSports = () => {
 
   const [categoryCard, setCategoryCard] = useState([]);
   const [mounted, setMounted] = useState(false);
+  const [storeCard, setStoreCard] = useState([]);
 
-  const getData = async () => {
+  const getDataCategories = async () => {
     await axios.get('/categories/find-all')
     .then(response => {
       if(mounted) {
@@ -34,9 +35,19 @@ const ScrollHomeSports = () => {
     });
   };
 
+  const getDataStore = async () => {
+    await axios.get("/companies/find-all").then((response) => {
+      if (mounted) {
+        // eslint-disable-next-line no-undef
+        setStoreCard(response.data);
+      }
+    });
+  };
+
   useEffect(() => {
     setMounted(true);
-    getData();
+    getDataCategories();
+    getDataStore();
     // eslint-disable-next-line
   },[mounted]);
   
@@ -59,6 +70,21 @@ const ScrollHomeSports = () => {
         </CardCategory>
         
       </HorizontalScroll>
+
+      <HorizontalScroll>
+
+        <CardCategory>
+          {
+            storeCard.map( store => (
+          <CardItem
+            image={store.image}
+            name={store.name}
+          />
+          ))
+          }
+        </CardCategory>
+
+          </HorizontalScroll>
     </CardGroup>
   );
 };
