@@ -12,8 +12,7 @@ const BottomNavigation = styled(Navbar)`
   position: fixed;
 
   @media (min-width: 800px) {
-    position: absolute;
-    bottom: -300vh;
+    position: fixed;
   };
 
   @media(min-width: 1280px) {
