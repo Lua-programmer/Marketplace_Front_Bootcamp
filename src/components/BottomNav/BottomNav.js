@@ -10,6 +10,22 @@ import styled from "styled-components";
 
 const BottomNavigation = styled(Navbar)`
   position: fixed;
+
+  @media (min-width: 800px) {
+    position: absolute;
+    bottom: -300vh;
+  };
+
+  @media(min-width: 1280px) {
+    position: absolute;
+    bottom: -10vh;
+  };
+
+  @media(min-width: 1300px) {
+    position: absolute;
+    bottom: -70vh;
+  };
+  
 `;
 const BottomIcon = styled.a`
 color: rgb(1, 50, 32);

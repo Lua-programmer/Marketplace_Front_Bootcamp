@@ -21,35 +21,35 @@ const Menu = () => {
       <MenuCards>
         <CardsMenu href="/category">
           <CardItem
-            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://i.ibb.co/YDWVkXc/menu.png"
             name="Categorias"
           />
         </CardsMenu>
 
         <CardsMenu href="/products">
           <CardItem
-            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://i.ibb.co/YDWVkXc/menu.png"
             name="Ofertas"
           />
         </CardsMenu>
 
         <CardsMenu href="/">
           <CardItem
-            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://i.ibb.co/YDWVkXc/menu.png"
             name="Minha conta"
           />
         </CardsMenu>
 
         <CardsMenu href="/products">
           <CardItem
-            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://i.ibb.co/YDWVkXc/menu.png"
             name="Produtos"
           />
         </CardsMenu>
 
         <CardsMenu href="/Store">
           <CardItem
-            image="https://fotos.vivadecora.com.br/decoracao-loja-de-artigos-esportivos-vanessalora-173250-square_cover_xsmall.jpg"
+            image="https://i.ibb.co/YDWVkXc/menu.png"
             name="Lojas"
           />
         </CardsMenu>

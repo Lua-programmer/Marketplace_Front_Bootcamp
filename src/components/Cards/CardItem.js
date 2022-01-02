@@ -23,18 +23,18 @@ text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green;
 color: white;
 `
 
-const CardItem = (props) => {
+function CardItem(props) {
 
-  
+
   const navigate = useNavigate();
   const goToCategory = () => {
-    navigate('/categories/find/', {state: props.id});
+    navigate('/categories/find/', { state: props.id });
   };
 
 
   return (
     <StyleGroupCard>
-      <StyledCard  onClick={goToCategory}>
+      <StyledCard onClick={goToCategory}>
         <Card.Img variant="top" src={props.image} />
         <Card.ImgOverlay>
           <StyledCardTitle>{props.name}</StyledCardTitle>
@@ -42,6 +42,6 @@ const CardItem = (props) => {
       </StyledCard>
     </StyleGroupCard>
   );
-};
+}
 
 export default CardItem;

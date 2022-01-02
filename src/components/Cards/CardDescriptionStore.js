@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 /* Vai abrir a pagina da loja com os produtos? Verificar rota */
 
 
+
 const CardDescription = (props) => {
     return (
         

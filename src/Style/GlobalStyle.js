@@ -25,7 +25,7 @@ body, nav {
 }
 
 body {
-    height: 100vh
+    height: 100vh;
 }
 `;
 
