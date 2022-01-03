@@ -24,10 +24,10 @@ font-size: 1.2rem;
 color: rgb(6, 33, 23);
 `
 
-const Search = () => {
+const Search = (props) => {
   return (
     <NavbarSearch>
-      <Form onSubmit="">
+      <Form onSubmit={props.onSubmit}>
       <Row>
         <Col>
         <InputSearch

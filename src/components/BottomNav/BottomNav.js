@@ -6,6 +6,7 @@ import {
   HiOutlineHeart,
 } from "react-icons/hi";
 import Navbar from "react-bootstrap/Navbar";
+import Nav from 'react-bootstrap/Nav';
 import styled from "styled-components";
 
 const BottomNavigation = styled(Navbar)`
@@ -22,7 +23,7 @@ const BottomNavigation = styled(Navbar)`
   };
   
 `;
-const BottomIcon = styled.a`
+const BottomIcon = styled(Nav.Link)`
 color: rgb(1, 50, 32);
 text-decoration: none;
 font-size 1.5rem;

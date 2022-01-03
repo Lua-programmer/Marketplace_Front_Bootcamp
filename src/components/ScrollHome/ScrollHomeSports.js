@@ -8,11 +8,13 @@ import styled from "styled-components";
 
 const CardGroup = styled.div`
   width: 100%;
-  height: 7rem;
-  padding: 0.6rem;
+  height: 8rem;
+
+
 `;
 const CardCategory = styled.div`
   display: flex;
+  padding: 0.3rem;
 `;
 
 const ScrollHomeSports = () => {
