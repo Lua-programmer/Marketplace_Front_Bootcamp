@@ -8,11 +8,13 @@ import styled from "styled-components";
 
 const CardGroup = styled.div`
   width: 100%;
-  height: 7rem;
-  padding: 0.6rem;
+  height: 8rem;
+
+
 `;
 const CardCategory = styled.div`
   display: flex;
+  padding: 0.3rem;
 `;
 
 const ScrollHomeSports = () => {
@@ -54,20 +56,6 @@ const ScrollHomeSports = () => {
           {categoryCard.map(category => (
             <CardItem img={category.image} name={category.name} />
           ))}
-        </CardCategory>
-      </HorizontalScroll>
-
-      <HorizontalScroll>
-        <CardCategory>
-          {
-            categoryCard.map( category => (
-          <CardItem
-            image={category.image}
-            name={category.name}
-          />
-          ))
-          }
-
         </CardCategory>
       </HorizontalScroll>
 
