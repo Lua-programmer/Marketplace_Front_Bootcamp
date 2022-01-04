@@ -22,10 +22,7 @@ body, nav {
         rgba(174, 246, 199, 1) 56%,
         rgba(227, 255, 168, 1) 81%
       );
-}
-
-body {
-    height: 100vh;
+      background-repeat: no-repeat;
 }
 `;
 

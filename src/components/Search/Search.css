@@ -4,5 +4,6 @@
     text-decoration: none;
     height: 80%;
     position: fixed;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    background-repeat: no-repeat;
 }
