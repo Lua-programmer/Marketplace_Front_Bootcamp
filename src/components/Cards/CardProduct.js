@@ -14,6 +14,15 @@ padding: 0 1rem;
 
 `;
 
+const Description = styled(Card.Title)`
+max-width: 17ch;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 1.1rem ;
+`;
+
+
 const CardProduct = (props) => {
 
     const navigate = useNavigate();
@@ -26,7 +35,7 @@ const CardProduct = (props) => {
         <Card onClick={goToProductPage}>
             <Card.Img variant="top" src={props.image}/>
             <Card.Body>
-                <Card.Title>{props.name}</Card.Title>
+                <Description>{props.name}</Description>
 
                 <Card.Text>
                     {props.price}

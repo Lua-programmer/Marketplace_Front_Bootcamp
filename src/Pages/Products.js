@@ -9,9 +9,10 @@ import styled from "styled-components";
 import CardProduct from "../components/Cards/CardProduct";
 import CardGroup from "react-bootstrap/CardGroup";
 
-const CardsScroll = styled.div`
+const ProductCards = styled.div`
   width: 100%;
   padding: 0.5rem;
+  
 `;
 
 const Products = () => {
@@ -34,7 +35,7 @@ const Products = () => {
   }, [mounted]);
 
   return (
-    <CardsScroll>
+    <ProductCards>
       <CardGroup>
         <Row xs={2} md={4}>
           {productCard.map(product => (
@@ -48,7 +49,7 @@ const Products = () => {
           ))}
         </Row>
       </CardGroup>
-    </CardsScroll>
+    </ProductCards>
   );
 };
 

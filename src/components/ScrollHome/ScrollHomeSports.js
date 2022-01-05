@@ -8,9 +8,7 @@ import styled from "styled-components";
 
 const CardGroup = styled.div`
   width: 100%;
-  height: 8rem;
-
-
+  height: 6.5rem;
 `;
 const CardCategory = styled.div`
   display: flex;
