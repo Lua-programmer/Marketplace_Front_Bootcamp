@@ -24,5 +24,5 @@ body, nav {
       );
       background-repeat: no-repeat;
 }
-`;
 
+`;
