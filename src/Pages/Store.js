@@ -6,8 +6,9 @@ import styled from 'styled-components';
 import CardDescription from '../components/Cards/CardDescriptionStore';
 
 const StoreStyle = styled.div`
-padding-bottom:2.5rem;
-padding-top:4rem;
+padding-bottom:5.5rem;
+padding-top:5.5rem;
+
 `
 
 const Store = () => {

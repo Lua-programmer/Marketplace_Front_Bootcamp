@@ -13,16 +13,6 @@ const BottomNavigation = styled(Navbar)`
   position: fixed;
   justify-content: space-between;
   height:10%;
-
-  @media(min-width: 1280px) {
-    position: absolute;
-    bottom: -10vh;
-  };
-
-  @media(min-width: 1300px) {
-    position: absolute;
-    bottom: -70vh;
-  };
   
 `;
 const BottomIcon = styled(Nav.Link)`

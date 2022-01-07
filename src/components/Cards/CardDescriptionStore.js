@@ -5,10 +5,11 @@ import Card from 'react-bootstrap/Card';
 
 
 
+
 const CardDescription = (props) => {
     return (
         
-        <Card>
+        <Card className='m-2'>
             <Card.Img variant="top" src={props.image}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>

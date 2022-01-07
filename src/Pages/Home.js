@@ -4,8 +4,9 @@ import CarouselCardStore from "../components/Carousel/CarouselCardStore";
 import styled from "styled-components";
 
 const HomeItens = styled.div`
-  padding-bottom:2.5rem;
-  padding-top:4rem;
+padding-bottom:5.5rem;
+padding-top:5.5rem;
+height: 100vh;
 
 `
 const Home = () => {
