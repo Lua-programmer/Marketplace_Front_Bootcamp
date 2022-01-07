@@ -7,16 +7,15 @@ import Navbar from "./components/Navbar/Navbar";
 import Category from "./Pages/Category";
 import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
-import Login from "./Pages/Login";
+import Login from "./Pages/Login/Login";
 import Products from "./Pages/Products";
 import Register from "./Pages/Register/Register";
 import BottomNav from "./components/BottomNav/BottomNav";
 import Store from "./Pages/Store";
 import Product from "./Pages/Product";
 
-
-axios.defaults.baseURL = 'https://marketplace-healthy-life.herokuapp.com/';
-axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.baseURL = "https://marketplace-healthy-life.herokuapp.com/";
+axios.defaults.headers.post["Content-Type"] = "application/json";
 
 function App() {
   return (
@@ -33,7 +32,7 @@ function App() {
         <Route path="store" element={<Store />} />
       </Routes>
       <BottomNav />
-      <GlobalStyle/>
+      <GlobalStyle />
     </div>
   );
 }
