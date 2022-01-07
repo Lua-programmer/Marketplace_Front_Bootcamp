@@ -2,20 +2,27 @@ import React from "react";
 import Search from "../Search/Search";
 import styled from "styled-components";
 import { IoPerson } from "react-icons/io5";
+import Navbar from 'react-bootstrap/Navbar';
 
 
-const HeaderNav = styled.nav`
-  padding: 0.5rem 0 0.5rem 0;
+const HeaderNav = styled(Navbar)`
+  padding:auto;
   display: flex;
+  justify-content: space-between;
+  height:13%;
+
 `;
-const LoginNav = styled.a`
+const LinkNav = styled(Navbar.Brand)`
 color: rgb(1, 50, 32);
 text-decoration: none;
 font-size 1.2rem;
-padding:0.2rem;
+padding: 0.5rem;
+
 `;
 
-const Logo = styled.img`
+/* const LinkLogo = styled(Navbar.Brand)`
+heigth:18%;
+width:30%;
 
   @media(min-width: 360px) {
     src: url(${props => props.src});
@@ -64,21 +71,26 @@ const Logo = styled.img`
     margin-top: -5px;
     margin-left: 66%
   };
-`
+` */
 
-const Navbar = () => {
+const HeaderNavbar = () => {
   return (
-    <HeaderNav>
-      <Search />
+    <HeaderNav fixed="top"  >
+
       {/* inserir boas vindas quando logado */}
-      
-      <Logo src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
-    
-      <LoginNav href="/login">
+      <Navbar.Brand href='/'>
+        {
+      <img width='100%' alt="Healthy Life" src="https://i.ibb.co/gWjkJJ0/Captura-de-tela-2021-12-27-222135-removebg-preview-1.png" />
+        }
+      </Navbar.Brand>
+
+      <LinkNav href="/login">
         <IoPerson />
-      </LoginNav>
+      </LinkNav>
+      <Search />
+    
     </HeaderNav>
   );
 };
 
-export default Navbar;
+export default HeaderNavbar;

@@ -14,6 +14,10 @@ const ProductCards = styled.div`
   padding: 0.5rem;
   
 `;
+const CardGroupStyle = styled(CardGroup)`
+padding-bottom:2.5rem;
+padding-top:4rem;
+`
 
 const Products = () => {
   const [productCard, setProductCard] = useState([]);
@@ -36,7 +40,7 @@ const Products = () => {
 
   return (
     <ProductCards>
-      <CardGroup>
+      <CardGroupStyle >
         <Row xs={2} md={4}>
           {productCard.map(product => (
             <Col>
@@ -48,7 +52,7 @@ const Products = () => {
             </Col>
           ))}
         </Row>
-      </CardGroup>
+      </CardGroupStyle>
     </ProductCards>
   );
 };

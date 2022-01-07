@@ -9,6 +9,8 @@ const MenuCards = styled.div`
 `;
 const MenuItens = styled.div`
   width: 100%;
+  padding-bottom:2.5rem;
+  padding-top:4rem;
 `;
 
 const CardsMenu = styled.a`

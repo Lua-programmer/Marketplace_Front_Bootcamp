@@ -1,8 +1,14 @@
 import React from 'react';
 import axios from "axios";
 import { useState, useEffect } from 'react';
+import styled from 'styled-components';
 
 import CardDescription from '../components/Cards/CardDescriptionStore';
+
+const StoreStyle = styled.div`
+padding-bottom:2.5rem;
+padding-top:4rem;
+`
 
 const Store = () => {
 
@@ -25,7 +31,7 @@ const Store = () => {
     },[mounted]);
 
     return (
-        <div>
+        <StoreStyle>
 
             {
                 storeCard.map (companie => (
@@ -41,7 +47,7 @@ const Store = () => {
             ))
             }
 
-        </div>
+        </StoreStyle>
     )
 }
 

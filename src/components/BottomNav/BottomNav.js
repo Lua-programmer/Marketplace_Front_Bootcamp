@@ -11,6 +11,8 @@ import styled from "styled-components";
 
 const BottomNavigation = styled(Navbar)`
   position: fixed;
+  justify-content: space-between;
+  height:10%;
 
   @media(min-width: 1280px) {
     position: absolute;
@@ -27,11 +29,12 @@ const BottomIcon = styled(Nav.Link)`
 color: rgb(1, 50, 32);
 text-decoration: none;
 font-size 1.5rem;
-padding: 0 1.8rem;
+
 `;
 
 const BottomNav = () => {
   return (
+    
     <BottomNavigation fixed="bottom">
       <BottomIcon href="/">
         <HiOutlineHome />
