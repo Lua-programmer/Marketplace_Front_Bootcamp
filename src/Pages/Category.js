@@ -8,6 +8,8 @@ const CategoryItens = styled.div`
   margin-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom:2.5rem;
+  padding-top:4rem;
 `;
 
 const Category = () => {
