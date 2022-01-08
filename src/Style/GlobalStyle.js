@@ -11,7 +11,6 @@ box-sizing: border-box
 
 body, input, text, div {
     font-family: 'Lexend Tera', sans-serif;
-    
 }
 
 body, nav {

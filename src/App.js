@@ -14,6 +14,7 @@ import BottomNav from "./components/BottomNav/BottomNav";
 import Store from "./Pages/Store";
 import Product from "./Pages/Product";
 
+
 axios.defaults.baseURL = "https://marketplace-healthy-life.herokuapp.com/";
 axios.defaults.headers.post["Content-Type"] = "application/json";
 

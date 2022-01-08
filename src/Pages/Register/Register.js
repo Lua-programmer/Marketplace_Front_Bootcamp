@@ -1,7 +1,7 @@
 // import axios from "axios";
 // import { useState } from "react";
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "./Register.css";
 
 const Register = () => {
@@ -58,9 +58,7 @@ const Register = () => {
           <Form.Label>Confirme a senha</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Button variant="primary" type="submit">
-          Registrar
-        </Button>
+        <input variant="primary" type="submit" value="Enviar"/>
       </Form>
     </div>
   );

@@ -1,9 +1,46 @@
-.iconsLogin p {
+.iconsLogin a{
+  font-family: 'Lexend Tera', sans-serif;
   display: inline;
-  margin-left: 3rem;
+  
+  text-decoration: none;
+  color: black;
 }
 
-.iconsLogin {
-  width: 50%;
-  margin-left: 5rem;
+.Login input[type=submit]{
+  margin-left: 7rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+}
+
+.Login {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 0.9rem;
+  height: 100vh;
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.login-ok > a{
+  margin-left: 1rem;
+  text-decoration: none;
+  color: gray;
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 0.9rem;
+}
+
+.login-ok{
+  margin-left: 1.5rem;
+  padding-bottom: 30%;
+  padding-left: 10%;
+}
+
+.font, .font > input {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  margin-left: 7rem;
 }
