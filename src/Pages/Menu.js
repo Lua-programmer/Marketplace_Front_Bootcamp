@@ -3,9 +3,9 @@ import CardItem from "../components/Cards/CardItem";
 import styled from "styled-components";
 
 const MenuCards = styled.div`
-  margin-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 `;
 const MenuItens = styled.div`
   width: 100%;
