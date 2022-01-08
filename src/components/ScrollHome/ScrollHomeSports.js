@@ -3,6 +3,7 @@ import HorizontalScroll from "react-scroll-horizontal";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
+
 import CardItem from "../Cards/CardItem";
 import styled from "styled-components";
 

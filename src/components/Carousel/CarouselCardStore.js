@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import CardStore from "../Cards/CardStore";
+import CardStore from "../Cards/CardCarousel";
 
 
 const CarouselCardStore = () => {
