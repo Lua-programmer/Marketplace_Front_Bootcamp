@@ -5,8 +5,6 @@ import CardStore from "../Cards/CardCarousel";
 
 const CarouselCardStore = () => {
 
-  /* iniciando o carousel em bootstrap -- */
-
   return (
     <div>
       <Carousel>

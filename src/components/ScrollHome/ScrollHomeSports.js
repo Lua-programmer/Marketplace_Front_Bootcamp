@@ -5,16 +5,8 @@ import { useState, useEffect } from "react";
 
 
 import CardItem from "../Cards/CardItem";
-import styled from "styled-components";
+import { CardGroup, CardCategory } from './Style';
 
-const CardGroup = styled.div`
-  width: 100%;
-  height: 6.5rem;
-`;
-const CardCategory = styled.div`
-  display: flex;
-  padding: 0.3rem;
-`;
 
 const ScrollHomeSports = () => {
   const [categoryCard, setCategoryCard] = useState([]);

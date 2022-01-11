@@ -11,8 +11,11 @@ box-sizing: border-box
 
 body, input, text, div {
     font-family: 'Lexend Tera', sans-serif;
+    font-size:14px;
 }
-
+small{
+    font-size:12px;
+}
 body, nav {
     background: linear-gradient(
         135deg,
@@ -22,6 +25,11 @@ body, nav {
         rgba(227, 255, 168, 1) 81%
       );
       background-repeat: no-repeat;
+}
+body {
+    padding-bottom:5.5rem;
+  padding-top:5.5rem;
+  
 }
 
 `;
