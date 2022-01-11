@@ -4,34 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import {  HiOutlineHeart } from "react-icons/hi";
 import { BsCartPlus } from "react-icons/bs";
-import styled from "styled-components";
 
-const CardIcon = styled.a`
-color: rgb(1, 50, 32);
-text-decoration: none;
-font-size 1.2rem;
-padding: 0 1rem;
+import { CardIcon, CardStyle, Description, CardImgStyle } from './Style';
 
-`;
-const CardStyle = styled(Card)`
-box-shadow: 5px 5px 15px 0px #504f5093;
-margin: 0.3rem;
-border-radius:0.6rem ;
-background-color: rgba(255, 255, 255, 0.568);
-`
-
-const Description = styled(Card.Title)`
-max-width: 17ch;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-font-size: 1.1rem ;
-
-`;
-const CardImgStyle = styled(Card.Img)`
-border-radius:0.6rem ;
-
-`
 
 const CardProduct = (props) => {
 
@@ -55,9 +30,15 @@ const CardProduct = (props) => {
                 {props.description}
                 </Card.Text>
 
-                <Card.Text>
+                <small className="text-muted">
+                    Vendido por:
+                {props.store}
+                </small>
+                
+                <small className="text-muted">
+                    Categoria:
                 {props.category}
-                </Card.Text>
+                </small>
 
                 <CardIcon>
                 <HiOutlineHeart />
@@ -66,7 +47,7 @@ const CardProduct = (props) => {
                 <CardIcon>
                 <BsCartPlus/>
                 </CardIcon>
-
+                
             </Card.Body>
         </CardStyle>
         
