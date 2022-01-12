@@ -3,7 +3,6 @@ import { Form } from "react-bootstrap";
 import { FiEdit } from "react-icons/fi";
 import { useState } from 'react';
 import axios from 'axios';
-import "./Login.css";
 
 function Login() {
 
@@ -27,8 +26,8 @@ function Login() {
   }
 
   return (
-    <div className="Login">
-      <h2 className="login-title">Acesse sua Conta</h2>
+    <div >
+      <h2 className="m-2 font">Acesse sua Conta</h2>
       <Form className="m-2" onSubmit={handleSubmit}>
         <Form.Group className="mb-3 font" controlId="formBasicEmail">
           <Form.Label>E-mail</Form.Label>
@@ -43,15 +42,15 @@ function Login() {
         <input value="Fazer login" type="submit"/>
       </Form>
 
-      <div className="login-ok">
-          <a href="!#">
-            <span>Esqueceu sua senha?</span>
+      <div className="m-3 mb-2 font">
+          <a className='text-decoration-none' href="!#">
+            <span >Esqueceu sua senha?</span>
           </a>
         </div>
-        <span>Ainda não possui uma conta?</span>
-        <div className="iconsLogin" >
+        <span className="m-3 font">Ainda não possui uma conta?</span>
+        <div className="m-3 font" >
         
-          <a href="/register">
+          <a className='text-decoration-none' href="/register">
             <FiEdit type="submit" /> Cadastre-se
           </a>
         </div>
