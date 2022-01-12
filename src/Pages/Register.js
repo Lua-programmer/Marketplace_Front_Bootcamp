@@ -2,7 +2,7 @@
 // import { useState } from "react";
 import React from "react";
 import { Form } from "react-bootstrap";
-import "./Register.css";
+
 
 const Register = () => {
   // const [name_user, setName] = useState("");
@@ -41,8 +41,8 @@ const Register = () => {
 
   return (
     <div className="container">
-      <Form className="cadastro">
-        <Form.Group className="mb-3 w-100" controlId="Name">
+      <Form className="bg-transparent rounded ml-8 " type='submit'>
+        <Form.Group className="mb-3 w-100 " controlId="Name">
           <Form.Label>Nome</Form.Label>
           <Form.Control type="text" placeholder="Digite seu nome" />
         </Form.Group>
@@ -58,7 +58,7 @@ const Register = () => {
           <Form.Label>Confirme a senha</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <input variant="primary" type="submit" value="Enviar"/>
+        <input className='ml-auto' variant="primary" type="submit" value="Enviar"/>
       </Form>
     </div>
   );

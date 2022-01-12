@@ -9,9 +9,10 @@ outline: 0;
 box-sizing: border-box 
 }
 
-body, input, text, div {
+body, text, div, a {
     font-family: 'Lexend Tera', sans-serif;
     font-size:14px;
+  color: rgb(1, 50, 32);
 }
 small{
     font-size:12px;
@@ -31,5 +32,14 @@ body {
   padding-top:5.5rem;
   
 }
-
+input, Form {
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.9rem;
+  color: rgb(1, 50, 32);
+}
+h2{
+    font-size: 1rem;
+}
 `;

@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -6,9 +7,8 @@ import axios from 'axios';
 import { Card } from 'react-bootstrap';
 
 
+const ViewStore = () => {
 
-const Product = () => {
-    
     const state = useLocation();
     const id = state.state;
 
@@ -16,7 +16,7 @@ const Product = () => {
     const [mounted, setMounted] = useState(false);
 
     const getData = async () => {
-        await axios.get(`/products/find/${id}`)
+        await axios.get(`/companie/find/${id}`)
         .then(response => {
             if(mounted) {
                 setItem(response.data)
@@ -30,9 +30,9 @@ const Product = () => {
         // eslint-disable-next-line
     }, [mounted])
 
-
     return (
-        <Card className='m-2'>
+        <div>
+            <Card className='m-2'>
         <Card.Img variant="top" src={item.image}/>
         <Card.Body>
             <Card.Title>{item.name}</Card.Title>
@@ -51,7 +51,10 @@ const Product = () => {
 
         </Card.Body>
     </Card>
+
+    
+        </div>
     )
 }
 
-export default Product;
+export default ViewStore
