@@ -44,8 +44,11 @@ const ScrollHomeSports = () => {
     <CardGroup>
       <HorizontalScroll>
         <CardCategory>
-          {categoryCard.map(category => (
-            <CardItem image={category.image} name={category.name} />
+          {categoryCard.map(categories => (
+            <CardItem 
+            image={categories.image} 
+            name={categories.name} 
+            />
           ))}
         </CardCategory>
       </HorizontalScroll>

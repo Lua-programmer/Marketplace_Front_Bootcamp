@@ -1,0 +1,488 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Academia Astro",
+            "email": "academiaastro@gmail.com",
+            "cnpj": 11343055000110,
+            "image": "https://i.ibb.co/XZhK16g/academia-astro.png",
+            "address": "Avenida Epitácio Pessoa, 65",
+            "city": "João Pessoa",
+            "cep": 58305222,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332325566,
+            "products": [
+                {
+                    "id": 1,
+                    "name" : "Corda de pular Acte Sports",
+                    "description": "Muito mais resistência e durabilidade para os seus treinos e práticas esportivas! A Corda de Pular Acte Sports T95-N é produzida em PVC e garante toda a praticidade que você sempre quis pela facilidade ao guardar e transportar. Com 2,85 metros, ela é leve e ideal para exercícios aeróbios. O uso frequente fará com que você fortaleça suas pernas, glúteos e panturrilha, melhorando o condicionamento físico, a coordenação motora e aumentando a capacidade cardiorrespiratória.",
+                    "image": "https://i.ibb.co/2h58sD7/corda.png",
+                    "price": "R$ 30,00",
+                    "category": [
+                        {
+                            "id": 1,
+                            "name": "Musculação"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Centro Fitness - Moda",
+            "email": "centrofit@gmail.com",
+            "cnpj": 63921620000183,
+            "image": "https://i.ibb.co/Dks9tz3/centro-fitness.png",
+            "address": "Avenida João Gomes, 100",
+            "city": "Fortaleza",
+            "cep": 58305221,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332325556,
+            "products": [
+                {
+                    "id": 1,
+                    "name" : "Kit de 5 camisas para musculação",
+                    "description": "Feito com fibra de poliéster, o tecido dry fit é leve, tecnologia inovadora e funcional,evita a sensação de roupa úmida e pesada, afasta o suor do corpo e do tecido com mais rapidez, seca muito rápido e não amarrota, perfeito para atividades físicas.",
+                    "image": "https://i.ibb.co/2877btP/blusa.png",
+                    "price": "R$ 90,00",
+                    "category": [
+                        {
+                            "id": 1,
+                            "name": "Moda"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Corpo Fitness - Moda",
+            "email": "corpofitness@gmail.com",
+            "cnpj": 24405272000122,
+            "image": "https://i.ibb.co/rymfGF1/corpo-fitness.png",
+            "address": "Rua Alves Bezerra, 150",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+               
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Maré Mansa - Loja de Surf",
+            "email": "maremansa@gmail.com",
+            "cnpj": 71020999000189,
+            "image": "https://i.ibb.co/z7R9WxB/mare-mansa.png",
+            "address": "Avenida Acre, 180",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+                
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Suplement Store",
+            "email": "suplementstore@gmail.com",
+            "cnpj": 34641039000100,
+            "image": "https://i.ibb.co/J3YRN9m/supplement-store.png",
+            "address": "Avenida Joaquim Dantas, 580",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+               
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Tulius  Bike",
+            "email": "tuliusbike@gmail.com",
+            "cnpj": 63490743000107,
+            "image": "https://i.ibb.co/nCx8X5z/tulius-bike.png",
+            "address": "Rua Severino Alves Bezerra, 890",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+                {
+                    "id": 1,
+                    "name" : "Bicicleta Aro 28",
+                    "description": "Quadro: quadro de aço aro 29 com suporte para freios v-brake garfo: suspensão caloi com 50 mm de curso aros: aro 29 - alumínio - parede dupla cubos: aço com quick release raios: zincado pneu: MTB 29x2.10 pedal: plástico pedivela: aço - com chain guard - 170mm - movimento centr al: 887w eixo 3t/126mm corrente: kmc z7 cassete: roda livre 7 velocidades 14-28d câmbio traseiro: caloi indexado - 7v câmbio nteiro: caloi indexado - 3v passadores: grip system guidão: aço curvo suporte de guidão: aço - 90mm +10 manoplas: grip shift movimento de direção: ahead freios: v-brake de aço manete de freios: plástico selim: royal ciclo MTB premium canote do selim: aço 27.2x300 mm altura sugerida: 1,70m a 1,85m",
+                    "image": "https://i.ibb.co/hRBc3Q5/bike.png",
+                    "price": "R$ 900,00",
+                    "category": [
+                        {
+                            "id": 1,
+                            "name": "Bikes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Simple Yoga",
+            "email": "simpleyoga@gmail.com",
+            "cnpj": 68823311000194,
+            "image": "https://i.ibb.co/QXWvXDQ/simple-yoga.png",
+            "address": "Rua Manoel Tertuliano, 50",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+                {
+                    "id": 1,
+                    "name" : "Colchonete",
+                    "description": "O Colchonete de Academia Ortobom é perfeito para prática de exercícios físicos, como em academias, ginástica e alongamento. A Espuma Ultra Firme Selada 100% Poliuretano acomoda o corpo evitando o atrito com o solo, garantindo maior desempenho às suas atividades. Confeccionado com revestimento de alta qualidade e resistência, o Colchonete de Academia Ortobom não retém líquidos.",
+                    "image": "https://i.ibb.co/FhSk7c9/colchonete.png",
+                    "price": "R$ 120,00",
+                    "category": [
+                        {
+                            "id": 1,
+                            "name": "Yoga"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Strong Form",
+            "email": "strongform@gmail.com",
+            "cnpj": 36033371000117,
+            "image": "https://i.ibb.co/tHT43fP/strong-form.png",
+            "address": "Rua Cecília Almeida, 480",
+            "city": "João Pessoa",
+            "cep": 58305521,
+            "country": "Brasil",
+            "uf": "PB",
+            "tel": 8332565556,
+            "products": [
+                {
+
+                }
+            ]
+        }
+
+    ],
+
+
+    "products": [
+        {
+            "id": 1,
+            "name" : "Corda de pular Acte Sports",
+            "description": "Muito mais resistência e durabilidade para os seus treinos e práticas esportivas! A Corda de Pular Acte Sports T95-N é produzida em PVC e garante toda a praticidade que você sempre quis pela facilidade ao guardar e transportar. Com 2,85 metros, ela é leve e ideal para exercícios aeróbios. O uso frequente fará com que você fortaleça suas pernas, glúteos e panturrilha, melhorando o condicionamento físico, a coordenação motora e aumentando a capacidade cardiorrespiratória.",
+            "image": "https://i.ibb.co/2h58sD7/corda.png",
+            "price": "R$ 30,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Musculação"
+                }
+            ],
+            "companies": [
+                {
+                    "id": 1,
+                    "name": "Corpo Fitness - Moda",
+                    "image": "https://i.ibb.co/rymfGF1/corpo-fitness.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name" : "Colchonete",
+            "description": "O Colchonete de Academia Ortobom é perfeito para prática de exercícios físicos, como em academias, ginástica e alongamento. A Espuma Ultra Firme Selada 100% Poliuretano acomoda o corpo evitando o atrito com o solo, garantindo maior desempenho às suas atividades. Confeccionado com revestimento de alta qualidade e resistência, o Colchonete de Academia Ortobom não retém líquidos.",
+            "image": "https://i.ibb.co/FhSk7c9/colchonete.png",
+            "price": "R$ 120,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Yoga"
+                }
+            ],
+            "companies": [
+                {
+                    "id": 1,
+                    "name": "Corpo Fitness - Moda",
+                    "image": "https://i.ibb.co/rymfGF1/corpo-fitness.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name" : "Bicicleta Aro 28",
+            "description": "Quadro: quadro de aço aro 29 com suporte para freios v-brake garfo: suspensão caloi com 50 mm de curso aros: aro 29 - alumínio - parede dupla cubos: aço com quick release raios: zincado pneu: MTB 29x2.10 pedal: plástico pedivela: aço - com chain guard - 170mm - movimento centr al: 887w eixo 3t/126mm corrente: kmc z7 cassete: roda livre 7 velocidades 14-28d câmbio traseiro: caloi indexado - 7v câmbio nteiro: caloi indexado - 3v passadores: grip system guidão: aço curvo suporte de guidão: aço - 90mm +10 manoplas: grip shift movimento de direção: ahead freios: v-brake de aço manete de freios: plástico selim: royal ciclo MTB premium canote do selim: aço 27.2x300 mm altura sugerida: 1,70m a 1,85m",
+            "image": "https://i.ibb.co/hRBc3Q5/bike.png",
+            "price": "R$ 900,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Bikes"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name" : "Kit de 5 camisas para musculação",
+            "description": "Feito com fibra de poliéster, o tecido dry fit é leve, tecnologia inovadora e funcional,evita a sensação de roupa úmida e pesada, afasta o suor do corpo e do tecido com mais rapidez, seca muito rápido e não amarrota, perfeito para atividades físicas.",
+            "image": "https://i.ibb.co/2877btP/blusa.png",
+            "price": "R$ 90,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Moda"
+                }
+            ],
+            "companies": [
+                {
+                    "id": 1,
+                    "name": "Corpo Fitness - Moda",
+                    "image": "https://i.ibb.co/rymfGF1/corpo-fitness.png"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name" : "Skate",
+            "description": "Esse skate é feito especialmente para a execução de manobras, fabricado para a prática de street, ideal para andar em rua de asfalto e Skateparks. O Shape é confeccionado com 7 laminas que garantem a execução de manobras de impacto. As rodas da linha FUN foram feitas para serem duráveis, e deslizam fácil nos slides. Radicalize em outro nível com um Skate Completo de qualidade.",
+            "image": "https://i.ibb.co/fYVfNz5/skite.png",
+            "price": "R$ 350,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Skate"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name" : "Rede de vôlei",
+            "description": "Medidas da rede:Largura: 6 m.Altura: 0,8 m.Malha: 12 x 12 cm.Fio:Espessura: 1,5 mm.Material: 100% PEAD (Polietileno de Alta Densidade).Fio trançado (oferece maior resistência e durabilidade).Rede com 4 faixas e com 4 costuras nas partes superior, inferior e laterais da rede para maior resistência. 6 ilhoses nas faixas laterais.",
+            "image": "https://i.ibb.co/jvTNBXP/rede.png",
+            "price": "R$ 80,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Volêi"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name" : "Kimono World Combat",
+            "description": "Kimono World Combat BJJ desenvolvido com tecido trançado leve e super resistente, com gramatura linear por volta de 400g, ideal para treinos e competições de Jiu-Jitsu.",
+            "image": "https://i.ibb.co/LhxSBrj/kimono.png",
+            "price": "R$ 250,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Lutas e Artes Marciais"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name" : "Patins Oxer",
+            "description": "Confira os Patins Oxer Darkness Gold - In Line - Freestyle - abec 7 - Base de Alumínio – Adulto! Liberdade e diversão você encontra com esses Patins Oxer Darkness Gold! Sua bota apresenta material têxtil acolchoado na parte interna para comodidade em todos os momentos com estrutura externa rígida que proporciona maior apoio e estabilidade durante os giros e saltos. As rodas em pu oferecem um deslize suave e confortável nas superfícies lisas e cimentadas. Com travas de segurança para reforçar o ajuste, os Patins Oxer apresentam base em alumínio e rolamentos ABEC7. De estilo Freestyle, sem freios, são indicados para você, que busca direcionamentos rápidos nas manobras com pequenos obstáculos. Não perca a oportunidade e garanta ótimos momentos de alegria e entretimento com os Patins Oxer Freestyle. Aproveite o preço!",
+            "image": "https://i.ibb.co/bQgwQgw/patins.png",
+            "price": "R$ 850,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Patins"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name" : "Bastão de Baisebol",
+            "description": "Confeccionado em madeira maciça, o Taco de Beisebol, da Vollo, é envernizado para aumentar sua vida útil. Indicado para ser utilizado com bola de cortiça. Ótima qualidade e performance.",
+            "image": "https://i.ibb.co/Q9qfJ8H/taco.png",
+            "price": "R$ 150,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Baisebol"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name" : "Bola de basquete",
+            "description": "Junte os amigos e divirta-se nos momentos de lazer com a Bola de Basquete Wilson da NBA. Com inspiração na liga de basquete mais famosa do mundo e nos Los Angeles Lakers, o modelo ideal para superfícies externas é confeccionado com material resistente e durável, além de contar com tecnologias que garantem melhor usabilidade ao quicar, passar e arremessar. Aproveite!",
+            "image": "https://i.ibb.co/R9Jg7T0/basquete.png",
+            "price": "R$ 450,00",
+            "category": [
+                {
+                    "id": 1,
+                    "name": "Baquete"
+                }
+            ]
+        }
+    ],
+
+    "categories": [
+        {
+            "id": 1,
+            "name": "Crossfit",
+            "image": "https://i.ibb.co/DQ80MhC/crossfit.png",
+            "products": [
+             
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Musculação",
+            "image": "https://i.ibb.co/7Ch2js1/muscula-o.png",
+            "products": [
+                {
+                    "id": 1,
+                    "name" : "Corda de pular Acte Sports",
+                    "description": "Muito mais resistência e durabilidade para os seus treinos e práticas esportivas! A Corda de Pular Acte Sports T95-N é produzida em PVC e garante toda a praticidade que você sempre quis pela facilidade ao guardar e transportar. Com 2,85 metros, ela é leve e ideal para exercícios aeróbios. O uso frequente fará com que você fortaleça suas pernas, glúteos e panturrilha, melhorando o condicionamento físico, a coordenação motora e aumentando a capacidade cardiorrespiratória.",
+                    "image": "https://i.ibb.co/2h58sD7/corda.png",
+                    "price": "R$ 30,00"
+                },
+                {
+                    "id": 2,
+                    "name" : "Kit de 5 camisas para musculação",
+                    "description": "Feito com fibra de poliéster, o tecido dry fit é leve, tecnologia inovadora e funcional,evita a sensação de roupa úmida e pesada, afasta o suor do corpo e do tecido com mais rapidez, seca muito rápido e não amarrota, perfeito para atividades físicas.",
+                    "image": "https://i.ibb.co/2877btP/blusa.png",
+                    "price": "R$ 90,00"
+                },
+                {
+                    "id": 3,
+                    "name" : "Colchonete",
+                    "description": "O Colchonete de Academia Ortobom é perfeito para prática de exercícios físicos, como em academias, ginástica e alongamento. A Espuma Ultra Firme Selada 100% Poliuretano acomoda o corpo evitando o atrito com o solo, garantindo maior desempenho às suas atividades. Confeccionado com revestimento de alta qualidade e resistência, o Colchonete de Academia Ortobom não retém líquidos.",
+                    "image": "https://i.ibb.co/FhSk7c9/colchonete.png",
+                    "price": "R$ 120,00"
+                },
+                {
+                    "id": 4,
+                    "name" : "Corda de pular Acte Sports",
+                    "description": "Muito mais resistência e durabilidade para os seus treinos e práticas esportivas! A Corda de Pular Acte Sports T95-N é produzida em PVC e garante toda a praticidade que você sempre quis pela facilidade ao guardar e transportar. Com 2,85 metros, ela é leve e ideal para exercícios aeróbios. O uso frequente fará com que você fortaleça suas pernas, glúteos e panturrilha, melhorando o condicionamento físico, a coordenação motora e aumentando a capacidade cardiorrespiratória.",
+                    "image": "https://i.ibb.co/2h58sD7/corda.png",
+                    "price": "R$ 30,00"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Natação",
+            "image": "https://i.ibb.co/HzsWBLW/nata-o.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Aerobica",
+            "image": "https://i.ibb.co/tQL5CSK/aerobica.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Moda Fitness",
+            "image": "https://i.ibb.co/yF9JFwg/moda.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Pilates",
+            "image": "https://i.ibb.co/6Nh9Jnx/pilates.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Yoga",
+            "image": "https://i.ibb.co/FnZ1xKJ/yoga.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Patins",
+            "image": "https://i.ibb.co/MVfNJVF/patins.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Suplementos",
+            "image": "https://i.ibb.co/LYQSqsk/suplementos.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Bicicletas",
+            "image": "https://i.ibb.co/0t6CkLT/bicicleta.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Baisebol",
+            "image": "https://i.ibb.co/VVkKqpY/beisebol.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Basquete",
+            "image": "https://i.ibb.co/FBS1r0j/basquete.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Lutas e Artes Marciais",
+            "image": "https://i.ibb.co/3NWC7kB/lutas-e-artes-marciais.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Skate",
+            "image": "https://i.ibb.co/VNFJNyY/skite.png",
+            "products": [
+            
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Vôlei",
+            "image": "https://i.ibb.co/Fqn0dc4/volei.png",
+            "products": [
+            
+            ]
+        }
+    ]
+}
