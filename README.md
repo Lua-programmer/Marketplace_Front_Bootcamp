@@ -13,7 +13,7 @@ Aqui o seu dinheiro vale mais, além de descontos e promoções, temos também o
 
 ## Tech
 
-As tecnologias para a criação do Marketplace fora:
+As tecnologias para a criação do Marketplace foram:
 
 - [React.Js]
 - [React-icons]
